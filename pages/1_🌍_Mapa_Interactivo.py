@@ -2,11 +2,11 @@ import streamlit as st
 import leafmap.foliumap as leafmap
 
 markdown = """
-A Streamlit map template
+Plantilla de Streamlit desde
 <https://github.com/opengeos/streamlit-map-template>
 """
 
-st.sidebar.title("About")
+st.sidebar.title("Conéctese")
 st.sidebar.info(markdown)
 logo = "https://i.imgur.com/UbOXYAU.png"
 st.sidebar.image(logo)
