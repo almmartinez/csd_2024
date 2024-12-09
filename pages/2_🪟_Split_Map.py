@@ -4,11 +4,11 @@ import leafmap.foliumap as leafmap
 st.set_page_config(layout="wide")
 
 markdown = """
-A Streamlit map template
+Plantilla de Streamlit en
 <https://github.com/opengeos/streamlit-map-template>
 """
 
-st.sidebar.title("About")
+st.sidebar.title("Conéctese")
 st.sidebar.info(markdown)
 logo = "https://i.imgur.com/UbOXYAU.png"
 st.sidebar.image(logo)

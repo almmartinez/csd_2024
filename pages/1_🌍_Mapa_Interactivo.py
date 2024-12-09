@@ -2,7 +2,7 @@ import streamlit as st
 import leafmap.foliumap as leafmap
 
 markdown = """
-Plantilla de Streamlit desde
+Plantilla de Streamlit en
 <https://github.com/opengeos/streamlit-map-template>
 """
 
