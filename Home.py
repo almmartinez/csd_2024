@@ -15,21 +15,21 @@ logo = "https://i.imgur.com/UbOXYAU.png"
 st.sidebar.image(logo)
 
 # Customize page title
-st.title("Streamlit for Geospatial Applications")
+st.title("Carta Sinóptica Dinámica - 2024")
 
 st.markdown(
     """
-    This multipage app template demonstrates various interactive web apps created using [streamlit](https://streamlit.io) and [leafmap](https://leafmap.org). It is an open-source project and you are very welcome to contribute to the [GitHub repository](https://github.com/opengeos/streamlit-map-template).
+    Esta plantilla de aplicación de varias páginas muestra varias aplicaciones web interactivas creadas usando [streamlit](https://streamlit.io) and [leafmap](https://leafmap.org). Es un proyecto de código abierto y eres bienvenido a contribuir en [GitHub repository](https://github.com/opengeos/streamlit-map-template).
     """
 )
 
-st.header("Instructions")
+st.header("Instrucciones")
 
 markdown = """
-1. For the [GitHub repository](https://github.com/opengeos/streamlit-map-template) or [use it as a template](https://github.com/opengeos/streamlit-map-template/generate) for your own project.
-2. Customize the sidebar by changing the sidebar text and logo in each Python files.
-3. Find your favorite emoji from https://emojipedia.org.
-4. Add a new app to the `pages/` directory with an emoji in the file name, e.g., `1_🚀_Chart.py`.
+1. Para el [GitHub repository](https://github.com/opengeos/streamlit-map-template) o [úsalo como plantilla](https://github.com/opengeos/streamlit-map-template/generate) para tu propio proyecto.
+2. Personalice la barra lateral cambiando el texto y el logotipo de la barra lateral en cada archivo de Python.
+3. Encuentra tu emoji favorito desde https://emojipedia.org.
+4. Agregar una nueva aplicación desde `pages/` directorio con un emoji en el nombre del archivo, e.g., `1_🚀_Chart.py`.
 
 """
 
