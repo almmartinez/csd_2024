@@ -13,7 +13,7 @@ st.sidebar.info(markdown)
 logo = "https://i.imgur.com/UbOXYAU.png"
 st.sidebar.image(logo)
 
-st.title("Split-panel Map")
+st.title("Comparación Cartas Sinópticas")
 
 with st.expander("See source code"):
     with st.echo():
