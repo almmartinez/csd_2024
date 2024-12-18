@@ -1,5 +1,5 @@
-import streamlit as st
-import leafmap.foliumap as leafmap
+import streamlit as st # type: ignore
+import leafmap.foliumap as leafmap # type: ignore
 
 markdown = """
 Plantilla de Streamlit en
