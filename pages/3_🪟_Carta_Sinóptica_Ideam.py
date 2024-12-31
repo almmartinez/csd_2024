@@ -37,7 +37,7 @@ with st.expander("See source code"):
             name="Carta Sinóptica",
             image=image_path,
             bounds=bounds,
-            opacity=0.3
+            opacity=0.6
         )
         image_overlay.add_to(m)
 
