@@ -2,10 +2,16 @@ import streamlit as st # type: ignore
 import folium # type: ignore
 from streamlit_folium import st_folium # type: ignore
 from selenium import webdriver # type: ignore
+from selenium.webdriver.chrome.options import Options # type: ignore
 from selenium.webdriver.common.by import By # type: ignore
 from selenium.webdriver.support.ui import WebDriverWait # type: ignore
 from selenium.webdriver.support import expected_conditions as EC # type: ignore
 import time
+
+chrome_options = Options() # type: ignore
+chrome_options.add_argument("--headless") # type: ignore
+chrome_options.add_argument("--no-sandbox") # type: ignore
+chrome_options.add_argument("--disable-dev-shm-usage") # type: ignore
 
 # Configurar el controlador de Selenium para Chrome
 driver = webdriver.Chrome()
